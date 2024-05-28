@@ -1,0 +1,281 @@
+body {
+    font-family: "Noto Sans KR", sans-serif;
+    width:430px; margin:50px auto;
+    border:1px solid #f5f5f5;
+}
+header {
+    background-color: #023586;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0 16px;
+    height:65px;
+}
+header .left {}
+header .left a {
+    color:#fff;
+    font-size: 0.875rem;
+    margin-right: 20px;
+}
+header h1 {}
+header h1 a {}
+header h1 a img {}
+header .right {}
+header .right a {
+    color:#fff;
+    font-size: 0.875rem;
+    margin-right: 20px;
+}
+header .right a:nth-child(3) {
+    margin:0;
+}
+header .right a img {}
+/* 메인(index.html) */
+/* main {
+    padding:10px 16px;
+}
+main .part {} */
+/* part1 */
+/* main .part1 {
+    padding:8px 0 20px;
+}
+main .part1 .title1 {
+    display: grid;
+    grid-template-areas:
+    "small_logo text"
+    "letter_logo text";
+    align-items: center;
+    justify-content: left;
+    margin-bottom: 20px;
+}
+main .part1 .title1 .small_logo {
+    grid-area: small_logo;
+}
+main .part1 .title1 .small_logo img {}
+main .part1 .title1 .letter_logo {
+    grid-area: letter_logo;
+}
+main .part1 .title1 .letter_logo img {}
+main .part1 .title1 h2 {
+    grid-area: text;
+    margin-left: 10px;
+}
+main .part1 .title1 h2 span {
+    font-weight: 700;
+}
+main .part1 > p {}
+main .part1 > p img {}
+/* part2 */
+/* main .part2 {
+    padding:20px 0;
+    text-align: center;
+}
+main .part2 > p {}
+main .part2 > p img {}
+main .part2 .title_top {
+    margin:20px 0;
+}
+main .part2 .title_top p {}
+main .part2 .title_top h3 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-top: 10px;
+}
+main .part2 p {
+    font-size: 0.875rem;
+    line-height: 1.5;
+} */
+/* part3 */
+/* main .part3 {
+    padding: 20px 0;
+    text-align: center;
+}
+main .part3 .bread {
+    display: flex;
+    justify-content: space-between;
+}
+main .part3 .bread img {}
+main .part3 .title_top {
+    margin: 20px 0;;
+}
+main .part3 .title_top p {}
+main .part3 .title_top h3 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-top: 10px;
+}
+main .part3 > p {
+    font-size: 0.875rem;
+    line-height: 1.5;
+} */
+/* part4 */
+/* main .part4 {
+    padding:20px 0;
+}
+main .part4 .title_top {text-align: center;}
+main .part4 .title_top h3 {
+    font-size: 1.25rem;
+}
+main .part4 .title_top h3 span {
+    font-weight: 700;
+}
+main .part4 .title_top p {
+    font-size: 0.75rem;
+    margin: 10px 0 20px;
+}
+main .part4 ul {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+main .part4 ul li {
+    display:flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+}
+main .part4 ul li:nth-child(11),
+main .part4 ul li:nth-child(12) {
+    margin:0;
+}
+main .part4 ul li img {}
+main .part4 ul li span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E6D9B7;
+    width:100%; height:60px;
+    line-height: 1.2;
+} */
+/* request.html */
+main {
+    padding:20px 16px;
+}
+main .title {
+    text-align: center;
+}
+main .title .top {
+    padding:10px 0;
+    border-bottom:1px solid #023586;
+}
+main .title .top h2 {
+    font-size: 1.25rem;
+}
+main .title .top h2 span {
+    font-weight: 700;
+}
+main .title .btm {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:10px 0 20px;
+}
+main .title .btm p {
+    font-size: 0.75rem;
+    line-height: 1.3;
+}
+main #info_frm {}
+main #info_frm fieldset {}
+main #info_frm fieldset .skip {}
+main #info_frm fieldset dl {
+    overflow: hidden;
+}
+main #info_frm fieldset dl dt {
+    float:left;
+    line-height: 34px;
+    margin-bottom: 20px;
+    font-size: 0.875rem;
+}
+main #info_frm fieldset dl dt:nth-child(5) {}
+main #info_frm fieldset dl dt:nth-child(7) {
+    letter-spacing: -0.4px;
+}
+main #info_frm fieldset dl dd {
+    font-size: 0.875rem;
+    float:right;
+    width:314px;
+}
+main #info_frm fieldset dl dd:nth-child(6) {
+    height: 34px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+main #info_frm fieldset dl dt:nth-child(9) {
+    height:100px;
+}
+main #info_frm fieldset dl dd input[name*=mail] {
+    margin-top: 17px;
+    width:calc(100% / 2 - 10px);
+}
+main #info_frm fieldset dl dd input[name*=user] {
+    height: 34px;
+    margin-bottom: 20px;
+    border: 1px solid #C3C3C3;
+    border-radius: 5px;
+}
+main #info_frm fieldset dl dd input[name*=name],
+main #info_frm fieldset dl dd input[name*=num],
+main #info_frm fieldset dl dd input[name*=location] {
+    width:100%;
+}
+main #info_frm fieldset dl dd span {}
+main #info_frm fieldset dl dd select {
+    width:calc(100% / 2 - 10px);
+    border: 1px solid #C3C3C3;
+    border-radius: 5px;
+    height:34px;
+}
+main #info_frm fieldset dl dd:nth-child(10) {
+    height:100px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+main #info_frm fieldset dl dd input[name*=reason] {display:none;}
+main #info_frm fieldset dl dd input[name*=reason]:checked + label {
+    background-image: url(../images/pb_check_fill_002.svg);
+}
+main #info_frm fieldset dl dd label {
+    background-image: url(../images/pb_check_blank_001.svg);
+    background-repeat: no-repeat;
+    padding-left: 26px;
+    width: 147px;
+}
+main #info_frm fieldset dl dd #contents {
+    width:100%;
+    border: 1px solid #C3C3C3;
+    border-radius: 5px;
+}
+main #info_frm fieldset .btn {}
+main #info_frm fieldset .btn #conserting_btn {
+    width:100%; background-color: #023586;
+    color:#fff; height:50px; border-radius: 10px;
+    margin-top: 20px; border:0;
+}
+/* 네비 */
+nav {}
+nav .navigation {
+    background-color: #023586;
+    display:flex;
+    padding:0 16px;
+    justify-content: space-between;
+}
+nav .navigation li {
+    width: calc(100% / 4);
+}
+nav .navigation li a {
+    display:flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    height: 65px;
+}
+nav .navigation li a img {
+    width:24px; height:24px;
+}
+nav .navigation li a span {
+    color:#E6D9B7;
+    font-size: 0.75rem;
+}
