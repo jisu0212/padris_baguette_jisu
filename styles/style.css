@@ -179,21 +179,20 @@ main #info_frm {}
 main #info_frm fieldset {}
 main #info_frm fieldset .skip {}
 main #info_frm fieldset dl {
-    overflow: hidden;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
 }
 main #info_frm fieldset dl dt {
-    float:left;
     line-height: 34px;
     margin-bottom: 20px;
     font-size: 0.875rem;
 }
-main #info_frm fieldset dl dt:nth-child(5) {}
 main #info_frm fieldset dl dt:nth-child(7) {
-    letter-spacing: -0.4px;
+    letter-spacing: -1.5px;
 }
 main #info_frm fieldset dl dd {
     font-size: 0.875rem;
-    float:right;
     width:314px;
 }
 main #info_frm fieldset dl dd:nth-child(6) {
